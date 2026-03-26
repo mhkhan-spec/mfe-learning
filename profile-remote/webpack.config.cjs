@@ -45,12 +45,12 @@ module.exports = {
                 react: {
                     singleton: true,
                     eager: false,
-                    requiredVersion: '^18.0.0',
+                    requiredVersion: '^19.0.0',
                 },
                 'react-dom': {
                     singleton: true,
                     eager: false,
-                    requiredVersion: '^18.0.0',
+                    requiredVersion: '^19.0.0',
                 },
             },
         }),

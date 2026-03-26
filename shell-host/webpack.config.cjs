@@ -45,6 +45,16 @@ module.exports = {
                     eager: true,
                     requiredVersion: '^4.0.0',
                 },
+                react: {
+                    singleton: true,
+                    eager: false,
+                    requiredVersion: '^19.0.0',
+                },
+                'react-dom': {
+                    singleton: true,
+                    eager: false,
+                    requiredVersion: '^19.0.0',
+                },
             },
         }),
         new HtmlWebpackPlugin({
